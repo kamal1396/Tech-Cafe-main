@@ -1,0 +1,35 @@
+#lemon__item {
+    height: 330px;
+    background: url(../images/limon1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    #lemon__picture {
+        width: 1140px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        .numeral-divs {
+            width: 170px;
+            flex-direction: column;
+            display: flex;
+            text-align: center;
+            h3 {
+                font-size: 60px;
+                margin: 0;
+                font-weight: 500;
+                color: black;
+            }
+            h6 {
+                margin: 15px;
+                font-size: 16px;
+                color: rgb(73, 72, 72);
+            }
+        }
+    }
+}

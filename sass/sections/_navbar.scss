@@ -1,0 +1,24 @@
+#contact {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+    display: flex;
+    justify-content: center;
+    .contact-info {
+        width: 1110px;
+        .header-info {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            padding: 6px;
+            li {
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    color: rgba(255, 255, 255, 0.5);
+                }
+            }
+        }
+    }
+}

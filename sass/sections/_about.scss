@@ -1,0 +1,47 @@
+#about-text {
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    padding-top: 70 px;
+    #text__inner {
+        width: 1140px;
+        height: 330px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        flex-direction: column;
+        margin-bottom: 50px;
+        .main__style-first {
+            color: #ffa23f;
+            font-family: 'Miss Fajardose', cursive;
+            font-size: 100px;
+            font-weight: normal;
+            display: block;
+            margin: 0;
+            position: relative;
+            top: 67px;
+        }
+        .main__style-second {
+            color: #333333;
+            position: relative;
+            font-weight: 600;
+            font-size: 50px;
+            font-family: inherit;
+            margin: 6px;
+            font-family: 'Poppins', sans-serif;
+        }
+        p {
+            color: #666666;
+            font-size: 17px;
+            line-height: 2;
+            font-weight: 400;
+            background: #ffffff;
+            margin-bottom: 16px;
+            text-align: center; //
+        }
+    }
+}

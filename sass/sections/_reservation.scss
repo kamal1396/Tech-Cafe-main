@@ -1,0 +1,83 @@
+#reservatin__page {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+    .main__headers-page {
+        width: 50%;
+        height: 200px;
+        .main__style-first {
+            color: #ffa23f;
+            font-family: "Miss Fajardose", cursive;
+            font-size: 100px;
+            font-weight: normal;
+            display: block;
+            margin: 0;
+            position: relative;
+            padding-left: 65px;
+        }
+        .main__style-second {
+            color: #333333;
+            position: relative;
+            bottom: 71px;
+            font-weight: 900;
+            font-size: 50px;
+            font-family: inherit;
+            margin: 6px;
+            padding-left: 65px; 
+            font-family: 'Poppins', sans-serif;
+        }
+        .info-res {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            .info-reserve {
+                display: flex;
+                flex-direction: column;
+                input {
+                    width: 270px;
+                    height: 50px;
+                    background: #ffffff;
+                    color: #000000;
+                    font-size: 16px 20px;
+                    border: 1px solid rgba(0, 0, 0, 0.4);
+                    outline: none;
+                }
+                .select-wrap__one-to-third {
+                    #people {
+                        width: 270px;
+                        height: 60px;
+                        background: #ffffff;
+                        color: #000000;
+                        font-size: 16px;
+                        border: 1px solid rgba(0, 0, 0, 0.4);
+                    }
+                }
+                .btn {
+                    margin-top: 20px;
+                }
+                .main-button {
+                    background: #ffa323;
+                    border-radius: 3px;
+                    text-align: center;
+                    padding: 18px 36px;
+                    color: white;
+                    outline: none;
+                    border: none;
+                }
+            }
+        }
+    }
+    #map {
+        width: 50%;
+        iframe {
+            width: 100%;
+            height: 622px;
+        }
+        a {
+            display: none;
+        }
+    }
+}

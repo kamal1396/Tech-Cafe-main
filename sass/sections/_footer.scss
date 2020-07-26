@@ -1,0 +1,84 @@
+#footer {
+    width: 100%;
+    background-color: #141313;
+    #footer__inner {
+        width: 92%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding-top: 70px;
+        .footer__inner-items {
+            width: 270px;
+            h2 {
+                display: flex;
+                justify-content: left;
+                color: #ffffff;
+                margin-bottom: 30px;
+                font-size: 18px;
+                font-weight: 700;
+            }
+            .photo__line {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                img {
+                    width: 33.4%;
+                    height: 90px;
+                    object-fit: cover;
+                }
+            }
+            .footer__icons {
+                margin-top: 40px;
+                a {
+                    font-size: 25px;
+                    color: white;
+                    margin-right: 20px;
+                }
+            }
+            p {
+                line-height: 1.7;
+                color: rgba(255, 255, 255, 0.7);
+                margin-top: 0;
+                margin-bottom: 1rem;
+            }
+            input {
+                text-align: center;
+                padding: 15px 32px;
+                font-size: 16px;
+                border-radius: 2px;
+                border: none;
+                background-color: rgba(51, 51, 51, 0.7);
+            }
+            .daily__basis {
+                display: flex;
+                padding-right: 60px;
+                line-height: 1.7;
+                margin: 0;
+                ul {
+                    width: 100px;
+                    list-style: none;
+                    color: rgba(255, 255, 255, 0.7);
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+            .btn-subscribe {
+                margin-top: 5px;
+            }
+            .subscribe-btn {
+                background: #ffa323;
+                border-radius: 3px;
+                text-align: center;
+                padding: 15px 95px;
+                outline: none;
+                border: none;
+                a {
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: white;
+                }
+            }
+        }
+    }
+}

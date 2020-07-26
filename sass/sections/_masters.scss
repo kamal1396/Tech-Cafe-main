@@ -1,0 +1,84 @@
+#masters {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px 0;
+    padding-top: 70px;
+
+    .main__style-first {
+        color: #ffa23f;
+        font-family: "Miss Fajardose", cursive;
+        font-size: 100px;
+        font-weight: normal;
+        display: block;
+        margin: 0;
+        position: relative;
+        left: 118px;
+    }
+    .main__style-second {
+        color: #333333;
+        position: relative;
+        bottom: 65px;
+        font-weight: 900;
+        font-size: 50px;
+        font-family: inherit;
+        margin: 6px;
+        font-family: 'Poppins', sans-serif;
+    }
+    #info__cefs-container {
+        width: 1140px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .cefs__info-main {
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 255px;
+                height: 320px;
+                object-fit: cover;
+                border-radius: 5px;
+            }
+            .cefs-info {
+                width: 255px;
+                .icons__social{
+                    color: #ffa23f;
+                    .fa{
+                        margin-right: 5px;
+                        font-size: 18px;
+                    }
+                }
+                .chef__nametag {
+                    font-weight: 500;
+                    font-size: 18px;
+                    color: #333333;
+                    font-weight: 600;
+                    line-height: 1.2;
+                    margin: 20px 0;
+                    font-family: 'Poppins', sans-serif;
+                    
+                }
+                .chef__nametag-alt {
+                    font-size: 14px;
+                    color: rgba(0, 0, 0, 0.4);
+                    margin: 0;
+                    padding-bottom: 10px;
+                    font-family: 'Poppins', sans-serif;
+                }
+                .chef__skills {
+                    margin-top: 0;
+                    margin-bottom: 1rem;
+                    line-height: 1.5;
+                    color: #666666;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

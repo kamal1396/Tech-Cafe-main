@@ -1,0 +1,96 @@
+#section__customers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 70px;
+    background-color: #f7f7f7;
+
+    .main__style-first {
+        color: #ffa23f;
+        font-family: "Miss Fajardose", cursive;
+        font-size: 100px;
+        font-weight: normal;
+        display: block;
+        margin: 0;
+        position: relative;
+    }
+
+    .main__style-second {
+        color: #333333;
+        position: relative;
+        bottom: 71px;
+        font-weight: 900;
+        font-size: 50px;
+        font-family: inherit;
+        margin: 6px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .informatin__container-cus {
+        width: 1060px;
+        height: 222px;
+        display: flex;
+        margin: auto;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 90px;
+        z-index: 3;
+        position: absolute;
+        top: 100px;
+        
+        .customers__inner {
+            text-align: center; 
+            width: 300px;
+            .customer__pic {
+                width: 130px;
+                height: 130px;
+                border-radius: 50%;
+            }
+            .customer-info {
+                text-align: center;
+                h5 {
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    font-weight: 600;
+                    font-family: 'Poppins', sans-serif;
+                    color: rgba(155, 153, 153, 0.8);
+                }
+                h4 {
+                    font-weight: 400;
+                    font-size: 22px;
+                    margin-bottom: 0;
+                    color: #000000;
+                    font-family: 'Poppins', sans-serif;
+
+
+                }
+                p {
+                    margin-bottom: 10px;
+                    color: #838181;
+                    line-height: 2;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .bg-img {
+        position: relative;
+        width: 63%;
+        height: 705px;
+        background: url(../images/teabg4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        z-index: 1;
+        .customer-overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            z-index: 2;
+        }
+    }
+}
